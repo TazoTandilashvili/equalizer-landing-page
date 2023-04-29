@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* font_size */
+.FnSz40{
+    font-size: 40px;
+}
+.FnSz16{
+    font-size: 16px;
+}
+.FnSz18{
+    font-size: 18px;
+}
+.FnSz20{
+    font-size: 20px;
+}
+.FnWg700{
+    font-weight: 700;
+}
+.FnWg400{
+    font-weight: 400;
+}
+/*  */
+body{
+    background-image: url(./assets/Oval\ top.png), url(./assets/Oval\ bottom.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.padding{
+    padding: 40px 24px 0px 24px;
+}
+.about{
+    margin-top: 64px;
+}
+.about_header{
+    line-height: 48px;
+    letter-spacing: -0.45px;
+    color: #191826;
+    overflow: hidden;
+    margin-bottom: 20px;
+    width: 85%;
+}
+.about_description{
+    line-height: 26px;
+    color: #191826;
+    width: auto;
+}
+.second_box{
+    margin-top: 166px;
+}
+.phone{
+    background-color: #191826;
+    position: relative;
+    border-radius: 12px ;
+    z-index: -1;
+}
+.bg_img{
+    text-align: center;
+}
+.bg_phone{
+    display: flex;
+    justify-content: center;
+}
+.bg_phone_img{
+    position: absolute;
+    top: -98px;
+}
+.box_premium{
+    background-color: #FA7453;
+    margin-top: -39.6px;
+    border-radius: 12px;
+}
+.box_premium_padding{
+    padding: 48px 37px 48px 37px;
+}
+.premium{
+    color: #FCFAF9;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 12px;
+}
+.about_premium{
+    color: #FCFAF9;
+    line-height: 28px;
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    margin-top: 36px;
+    align-items: center;
+    gap: 16px;
+    padding-left: 6px;
+    margin-bottom: 16px;
+}
+.dollar{
+    color: #FCFAF9;
+    font-size: 65px;
+    line-height: 52px;
+}
+.month{
+    color: #FCFAF9;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+}
+.download_btn{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6px;
+}
+.btn_1{
+    margin-left: 6px;
+    margin-top: 16px;
+    background-color: #191826;
+    border-radius: 12px;
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7.92px;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 14px;
+}
+.download_title{
+    color: #FCFAF9;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+}
+.bg_color{
+    background-color: #FCFAF9;
+}
+.ColorAndroid{
+    color: #191826;
+}
+.bottom{
+    padding: 64px 24px 64px 24px;
+}
+.sumup{
+    margin-top: 32px;
+    line-height: 26px;
+    color: #191826;
+}
+.social_media{
+    padding:64px 40px 80px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+@media (min-width: 768px){
+    /* font size changed 16 to 18 px*/
+    .about_description{
+        font-size: 18px;
+    }
+    body{
+        /* background-image: url(./assets/bg-pattern-1.svg), url(./assets/tablet_bg_top.png), url(./assets/tablet_bg_bottom.png);
+        background-position-x: 109%, right, 95%;
+        background-position-y: -38px, 0px, 210px; */
+        background-image:  url(./assets/bg-pattern-1.svg),url(./assets/tablet-orange-topleft-oval.png), url(./assets/tablet-blue-top-oval.png), url(./assets/tablet-yellow-bottomright-oval.png)  ;
+        background-position-x: 109%, 0px, right , right ;
+        background-position-y: -38px, 0px, top, 10%;
+        background-repeat: no-repeat;
+
+    }
+    .padding{
+        padding: 62px 209px 0px 39px  ;
+    }
+    .about{
+        margin-top: 95px;
+        width: 90%;
+    }
+    .about_header{
+        margin-bottom: 28px;
+        font-size: 64px;
+        line-height: 64px;
+        letter-spacing: -0.73;
+        width: auto;
+    }
+    .second_box{
+        padding: 0px 39px 0px 39px;
+        margin-top: 249px;
+    }
+    .phone{
+        padding-bottom: 211px;
+    }
+    .bg_img_photo{
+        margin-top: -31px;  
+    }
+    .bg_img{
+        text-align: start;margin-left: 229px;
+    }
+
+    .bg_phone_img{
+        width: 270.21px;
+        height: 556px;
+        top: -138px;
+        left: 64px;
+    }
+    #position_relative{
+        position: relative;
+    }
+    #position_relative #position_absolute{
+        position: absolute;
+        right: 97px;
+        top: 190px;
+        width: 399px;
+    }
+    .box_premium_padding{
+        padding: 48px;
+    }
+    .bottom{
+        padding: 183px 39px 85px 33px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        position: relative;
+    }
+    .bottomside_Logo{
+        grid-column: 1 / 3;
+    }
+    .social_media{
+        padding: 0px;
+        padding-bottom: 29px;
+        align-self: flex-end;
+        justify-self: end;
+    }
+}
+@media (min-width: 1440px){
+    .about_header{
+        width: 70%;
+    }
+    body{
+        background-image: url(./assets/bg_pattern-3.png), url(./assets/desktop-orange-topleft-oval.png), url(./assets/tablet-blue-top-oval.png), url(./assets/tablet-yellow-bottomright-oval.png), url(./assets/desktop-orange-bottom\ right.png);
+        background-position-x: right, 0px, 90%, 90% , right  ;
+        background-position-y: top, 0px , top, 10%, bottom;
+    }
+    .padding{
+        padding: 62px 270px 0px 165px;
+    }
+    .second_box{
+        padding: 0px 165px 0px 165px;
+        margin-top: 321px;
+    }
+}
